@@ -1,0 +1,28 @@
+{
+  "name": "eldorbot",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000a\u0000s\u0000y\u0000-\u0000B\u0000o\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "server": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OgabekMengn1yozov/Easy-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OgabekMengn1yozov/Easy-Bot/issues"
+  },
+  "homepage": "https://github.com/OgabekMengn1yozov/Easy-Bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.59.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.2"
+  }
+}
